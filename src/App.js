@@ -4,6 +4,7 @@ import Signup from './signup';
 import Login from './login';
 import BackgroundVideo from './home';
 import Navbar from './components/navbar';
+import About from './components/about';
 
 
 
@@ -16,6 +17,9 @@ function App() {
         <Route path="/" element={<Signup/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/home" element={<Navbar/>}/>
+        <Route path="/home" element={<About/>}/>
+
+
 
 
       

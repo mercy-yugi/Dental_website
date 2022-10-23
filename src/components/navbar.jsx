@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../components/navbar.css";
 import BackgroundVideo from "../home";
 import logo from "../images/officiallogo.png";
+import About from "./about";
 
 
 function Navbar() {
@@ -55,5 +56,6 @@ function Navbar() {
   );
 }
  <BackgroundVideo/>
+
 
 export default Navbar;
